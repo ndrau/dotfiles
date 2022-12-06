@@ -53,6 +53,9 @@ spotify focus todoist \
 echo "installing apps from app store"
 # use 'mas search xcode' to search for apps in the app store
 mas install 497799835 # XCode
+mas install 409183694 # Keynote
+mas install 409203825 # Numbers
+mas install 409201541 # Pages
 mas install 1157491961 # PLIST Editor
 
 ###############################################################################
