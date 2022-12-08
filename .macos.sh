@@ -915,6 +915,7 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension ionutvmi.path-autocomplete
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension bierner.github-markdown-preview
+code --install-extension eamodio.gitlens
 
 ###############################################################################
 # Kill affected applications                                                  #
