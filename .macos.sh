@@ -40,7 +40,9 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >>  ${HOME}/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 echo "installing brew apps"
-brew install git tree mas zsh-syntax-highlighting romkatv/powerlevel10k/powerlevel10k
+brew install git tree mas \
+zsh-syntax-highlighting zsh-history-substring-search \
+romkatv/powerlevel10k/powerlevel10k
 
 echo "installing brew casks"
 brew install --cask google-chrome firefox brave-browser \
@@ -80,8 +82,9 @@ echo "making system modifications:"
 # Shell                                                                       #
 ###############################################################################
 
-# Source Zsh-syntax-higlighting and Power Level 10k (it's installed via brew)
+# Source Zsh-syntax-higlighting, zsh-history-substring-search & Power Level 10k (it's installed via brew)
 echo '# Terminal styles' >>! "${HOME}/.zshrc"
+echo 'source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh' >>! "${HOME}/.zshrc"
 echo 'source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >>! "${HOME}/.zshrc"
 echo 'source $(brew --prefix powerlevel10k)/powerlevel10k.zsh-theme' >>! "${HOME}/.zshrc"
 

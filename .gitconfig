@@ -1,3 +1,5 @@
 [user]
 	email = andreas.rau@mercedes-benz.io
 	name = Andy Rau
+[init]
+	defaultBranch = main
