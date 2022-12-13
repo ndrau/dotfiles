@@ -58,6 +58,8 @@ mas install 497799835 # XCode
 mas install 409183694 # Keynote
 mas install 409203825 # Numbers
 mas install 409201541 # Pages
+mas install 441258766 # Magnet Window Manager
+mas install 430255202 # Mactracker
 mas install 1157491961 # PLIST Editor
 
 ###############################################################################
