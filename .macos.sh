@@ -921,6 +921,7 @@ code --install-extension ionutvmi.path-autocomplete
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension bierner.github-markdown-preview
 code --install-extension eamodio.gitlens
+code --install-extension bbugh.change-color-format
 
 ###############################################################################
 # Kill affected applications                                                  #
