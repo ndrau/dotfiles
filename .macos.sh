@@ -46,7 +46,7 @@ romkatv/powerlevel10k/powerlevel10k
 
 echo "installing brew casks"
 brew install --cask google-chrome firefox brave-browser \
-visual-studio-code iterm2 dash \
+visual-studio-code iterm2 dash polypane\
 bettertouchtool divvy bartender itsycal workflowy suspicious-package \
 qlcolorcode qlmarkdown qlstephen quicklook-json webpquicklook qlvideo \
 vlc handbrake betterzip avibrazil-rdm \
