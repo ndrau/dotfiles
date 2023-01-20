@@ -23,6 +23,7 @@
 	# More commands in one
 	aa = !git add -A && git status
 	cma = !git add -A && git commit -m
+	af = !git add -A && git commit --amend --no-edit
 
 # Colored log
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
