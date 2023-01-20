@@ -12,7 +12,7 @@
 	cm = commit -m
 
 	# Soft reset last commit
-	back = reset --soft HEAD~1
+	soft = reset --soft HEAD~1
 
 	# Delete unstaged changes
 	hard = reset --hard
