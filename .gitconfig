@@ -10,6 +10,7 @@
 	st = status
 	br = branch
 	cm = commit -m
+	po = push origin
 
 	# Soft reset last commit
 	soft = reset --soft HEAD~1
