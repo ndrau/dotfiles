@@ -50,7 +50,7 @@ visual-studio-code iterm2 dash polypane\
 bettertouchtool divvy bartender itsycal workflowy suspicious-package \
 qlcolorcode qlmarkdown qlstephen quicklook-json webpquicklook qlvideo \
 vlc handbrake betterzip avibrazil-rdm \
-spotify focus todoist \
+spotify focus \
 
 echo "installing apps from app store"
 # use 'mas search xcode' to search for apps in the app store
