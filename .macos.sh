@@ -917,7 +917,6 @@ code --install-extension pkief.material-icon-theme
 code --install-extension syler.sass-indented
 code --install-extension natemoo-re.vscode-stencil-tools
 code --install-extension esbenp.prettier-vscode
-code --install-extension ionutvmi.path-autocomplete
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension bierner.github-markdown-preview
 code --install-extension eamodio.gitlens
