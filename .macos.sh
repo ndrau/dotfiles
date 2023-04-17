@@ -61,6 +61,7 @@ mas install 409201541 # Pages
 mas install 441258766 # Magnet Window Manager
 mas install 430255202 # Mactracker
 mas install 1157491961 # PLIST Editor
+mas install 402592703 # Time Out - Break Reminders
 
 ###############################################################################
 # Dotfiles                                                                    #
