@@ -134,7 +134,7 @@ echo "installing a few global npm packages"
 # serve: serve helps you serve a static site, single page application or just a static file
 # fkill-cli: Fabulously kill processes
 # npm-quick-run: Quickly run NPM script by prefix without typing the full name
-npm install --global vite typescript \
+npm install --global vite typescript ts-node\
 serve fkill-cli npm-quick-run
 
 
