@@ -14,3 +14,15 @@ source $(brew --prefix powerlevel10k)/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# alias to list all globally installed npm packages
+alias npmls="npm list -g --depth 0"
+
+# alias to list all globally installed brew packages
+alias brewls="brew list"
+
+# alias to list all globally installed vs code packages
+alias vscodels="code --list-extensions"
+
+# alias to restart current shell
+alias reloadShell="source ~/.zshrc"
