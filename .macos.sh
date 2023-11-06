@@ -68,16 +68,16 @@ mas install 402592703 # Time Out - Break Reminders
 ###############################################################################
 
 echo "cloning dotfiles"
-git clone git@github.com:hosenrah/dotfiles.git "${HOME}/dotfiles"
-ln -s "${HOME}/dotfiles/.zshrc" "${HOME}/.zshrc"
-ln -s "${HOME}/dotfiles/.p10k.zsh" "${HOME}/.p10k.zsh"
-ln -s "${HOME}/dotfiles/.zprofile" "${HOME}/.zprofile"
-# ln -s "${HOME}/dotfiles/.gitignore_global" "${HOME}/.gitignore_global"
-ln -s "${HOME}/dotfiles/.gitconfig" "${HOME}/.gitconfig"
-# ln -s "${HOME}/dotfiles/.my_bin" "${HOME}/.my_bin"
-# ln -s "${HOME}/dotfiles/.vimrc" "${HOME}/.vimrc"
-# ln -s "${HOME}/dotfiles/.vimrc-parts" "${HOME}/.vimrc-parts"
-# ln -s "${HOME}/dotfiles/.ripgreprc" "${HOME}/.ripgreprc"
+git clone git@github.com:hosenrah/dotfiles.git "${HOME}/.dotfiles"
+ln -s "${HOME}/.dotfiles/.zshrc" "${HOME}/.zshrc"
+ln -s "${HOME}/.dotfiles/.p10k.zsh" "${HOME}/.p10k.zsh"
+ln -s "${HOME}/.dotfiles/.zprofile" "${HOME}/.zprofile"
+# ln -s "${HOME}/.dotfiles/.gitignore_global" "${HOME}/.gitignore_global"
+ln -s "${HOME}/.dotfiles/.gitconfig" "${HOME}/.gitconfig"
+# ln -s "${HOME}/.dotfiles/.my_bin" "${HOME}/.my_bin"
+# ln -s "${HOME}/.dotfiles/.vimrc" "${HOME}/.vimrc"
+# ln -s "${HOME}/.dotfiles/.vimrc-parts" "${HOME}/.vimrc-parts"
+# ln -s "${HOME}/.dotfiles/.ripgreprc" "${HOME}/.ripgreprc"
 
 echo "making system modifications:"
 
