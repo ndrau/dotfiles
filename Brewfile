@@ -10,6 +10,7 @@ cask dash
 cask find-any-file
 cask focus
 cask handbrake
+cask karabiner-elements
 cask pieces # on machine code snippet ml tool
 cask spotify
 cask visual-studio-code
