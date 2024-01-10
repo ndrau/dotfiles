@@ -22,6 +22,15 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# Define a function to install Node.js with package reinstall from current versions packages
+nvm_install_with_reinstall_of_current_packages() {
+  echo "installing node: $1 with reinstall of current packages"
+  nvm install --reinstall-packages-from=current "$1"
+}
+
+# Create an alias for the function
+alias nvmi=nvm_install_with_reinstall_of_current_packages
+
 alias bookmarks='
   echo "~/.nvm"
   echo "~/.dotfiles"
