@@ -78,6 +78,8 @@ ln -s "${HOME}/.dotfiles/.gitconfig" "${HOME}/.gitconfig"
 # ln -s "${HOME}/.dotfiles/.vimrc" "${HOME}/.vimrc"
 # ln -s "${HOME}/.dotfiles/.vimrc-parts" "${HOME}/.vimrc-parts"
 # ln -s "${HOME}/.dotfiles/.ripgreprc" "${HOME}/.ripgreprc"
+ln -s "${HOME}/.dotfiles/.eslintrc.cjs" "${HOME}/.eslintrc.cjs"
+ln -s "${HOME}/.dotfiles/.prettierrc" "${HOME}/.prettierrc"
 
 echo "making system modifications:"
 
