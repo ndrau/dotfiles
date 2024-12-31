@@ -1,6 +1,6 @@
 [user]
 	email = andreas.rau93@gmail.com
-	name = Andy Rau
+	name = ndr
 [init]
 	defaultBranch = main
 [alias]
@@ -34,7 +34,7 @@
 	gone = "!f() { git fetch --all --prune; git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -D; }; f"
 
 	# Branches sorted by last modified
-	b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+	bra = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
 
 	# List Aliases
 	al = "!git config -l | grep alias | cut -c 7-"

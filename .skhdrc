@@ -1,0 +1,4 @@
+# App shortcuts
+alt - c : open -a "Cursor"
+alt - w : open -a "Warp"
+alt - a : open -a "Arc"
