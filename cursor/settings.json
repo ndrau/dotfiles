@@ -1,129 +1,130 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    // highest complexity level will be set when it exceeds 15
-    "codemetrics.basics.ComplexityLevelExtreme": 15,
-  
-    // Hides code lenses with complexity lesser than the given value
-    "codemetrics.basics.CodeLensHiddenUnder": 3,
-  
-    // Description for the highest complexity level
-    "codemetrics.basics.ComplexityLevelExtremeDescription": "OMG split this up!",
-  
-    // someone uses 'any', it must be punished
-    "codemetrics.nodeconfiguration.AnyKeyword": 100,
-    "cSpell.userWords": [
-      "andreasrau",
-      "codemetrics",
-      "extralight",
-      "Fira",
-      "katex",
-      "Katex",
-      "nodeconfiguration",
-      "pinia",
-      "plex",
-      "rgba",
-      "unplugin"
-    ],
-    // Using the light mode
-    "indentRainbow.indicatorStyle": "light",
-    // we use a simple 1 pixel wide line
-    "indentRainbow.lightIndicatorStyleLineWidth": 1,
-    // the same colors as above but more visible
-    "editor.guides.bracketPairs": true,
-    "editor.guides.highlightActiveIndentation": true,
-    "editor.guides.bracketPairsHorizontal": "active",
-    "workbench.colorCustomizations": {
-      "[Panda Syntax]": {
-        "editorBracketPairGuide.background1": "#FFB86C",
-        "editorBracketPairGuide.background2": "#FF75B5",
-        "editorBracketPairGuide.background3": "#45A9F9",
-        "editorBracketPairGuide.background4": "#B084EB",
-        "editorBracketPairGuide.background5": "#E6E6E6",
-        "editorBracketPairGuide.background6": "#19f9d8",
-  
-        "editorBracketPairGuide.activeBackground1": "#FFB86C",
-        "editorBracketPairGuide.activeBackground2": "#FF75B5",
-        "editorBracketPairGuide.activeBackground3": "#45A9F9",
-        "editorBracketPairGuide.activeBackground4": "#B084EB",
-        "editorBracketPairGuide.activeBackground5": "#E6E6E6",
-        "editorBracketPairGuide.activeBackground6": "#19f9d8"
-      }
-    },
-    "editor.renderWhitespace": "all",
-    "editor.fontFamily": "Ligalex Mono for Powerline",
-    "editor.fontLigatures": true,
-    "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {
-          "scope": [
-            //following will be in italic
-            "entity.name.type.class", //class names
-            "constant", //String, Number, Boolean…, this, super
-            "storage.modifier", //static keyword
-            "storage.type.class.js", //class keyword
-            "keyword", //import, export, return…
-            "keyword.control",
-            "entity.name.function", //function calls
-            "entity.name.method", //method calls
-            // "support.class.console", //console object
-            // "support.function.console", //console methods
-            // "support.function", //built-in methods
-            // "support.method",  //general methods
-            // "meta.method-call", //method calls
-            // "meta.method.declaration", //method declarations
-            // "meta.function-call" //function calls
-            "string.template",
-            // More specific string scopes that exclude interpolation
-            "string.template.js",
-            "string.template.ts",
-            // Variable declarations and usage in regular code
-            "variable.other",
-            "variable.other.constant",
-  
-            // JSX properties
-            "entity.other.attribute-name",
-            "entity.other.attribute-name.jsx",
-            "entity.other.attribute-name.tsx"
-          ],
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "scope": [
-            //following will be excluded from italics (VSCode has some defaults for italics)
-  
-            "invalid",
-            "keyword.operator",
-            "constant.numeric.css",
-            "keyword.other.unit.px.css",
-            "constant.numeric.decimal.js",
-            "constant.numeric.json",
-            "comment",
-            // Exclude interpolation expressions
-            "meta.template.expression",
-            "meta.embedded.line",
-            "punctuation.definition.template-expression",
-            // More specific JSX/TSX expression exclusions
-            "variable.other.readwrite.js.jsx",
-            "variable.other.readwrite.tsx",
-            "variable.other.object.js.jsx",
-            "variable.other.object.tsx",
-            "meta.embedded.expression.jsx variable.other",
-            "meta.embedded.expression.tsx variable.other",
-            "meta.jsx.children variable.other",
-            "meta.tag.expression variable.other"
-          ],
-          "settings": {
-            "fontStyle": ""
-          }
+  "workbench.iconTheme": "catppuccin-mocha",
+  // highest complexity level will be set when it exceeds 15
+  "codemetrics.basics.ComplexityLevelExtreme": 15,
+
+  // Hides code lenses with complexity lesser than the given value
+  "codemetrics.basics.CodeLensHiddenUnder": 3,
+
+  // Description for the highest complexity level
+  "codemetrics.basics.ComplexityLevelExtremeDescription": "OMG split this up!",
+
+  // someone uses 'any', it must be punished
+  "codemetrics.nodeconfiguration.AnyKeyword": 100,
+  "cSpell.userWords": [
+    "andreasrau",
+    "codemetrics",
+    "deno",
+    "extralight",
+    "Fira",
+    "katex",
+    "Katex",
+    "MAPBOX",
+    "nodeconfiguration",
+    "pinia",
+    "plex",
+    "rgba",
+    "unplugin"
+  ],
+  // Using the light mode
+  "indentRainbow.indicatorStyle": "light",
+  // we use a simple 1 pixel wide line
+  "indentRainbow.lightIndicatorStyleLineWidth": 1,
+  // the same colors as above but more visible
+  "editor.guides.bracketPairs": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.bracketPairsHorizontal": "active",
+  "workbench.colorCustomizations": {
+    "[Panda Syntax]": {
+      "editorBracketPairGuide.background1": "#FFB86C",
+      "editorBracketPairGuide.background2": "#FF75B5",
+      "editorBracketPairGuide.background3": "#45A9F9",
+      "editorBracketPairGuide.background4": "#B084EB",
+      "editorBracketPairGuide.background5": "#E6E6E6",
+      "editorBracketPairGuide.background6": "#19f9d8",
+
+      "editorBracketPairGuide.activeBackground1": "#FFB86C",
+      "editorBracketPairGuide.activeBackground2": "#FF75B5",
+      "editorBracketPairGuide.activeBackground3": "#45A9F9",
+      "editorBracketPairGuide.activeBackground4": "#B084EB",
+      "editorBracketPairGuide.activeBackground5": "#E6E6E6",
+      "editorBracketPairGuide.activeBackground6": "#19f9d8"
+    }
+  },
+  "editor.renderWhitespace": "all",
+  "editor.fontFamily": "Ligalex Mono for Powerline",
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic
+          "entity.name.type.class", //class names
+          "constant", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+          "keyword", //import, export, return…
+          "keyword.control",
+          "entity.name.function", //function calls
+          "entity.name.method", //method calls
+          // "support.class.console", //console object
+          // "support.function.console", //console methods
+          // "support.function", //built-in methods
+          // "support.method",  //general methods
+          // "meta.method-call", //method calls
+          // "meta.method.declaration", //method declarations
+          // "meta.function-call" //function calls
+          "string.template",
+          // More specific string scopes that exclude interpolation
+          "string.template.js",
+          "string.template.ts",
+          // Variable declarations and usage in regular code
+          "variable.other",
+          "variable.other.constant",
+
+          // JSX properties
+          "entity.other.attribute-name",
+          "entity.other.attribute-name.jsx",
+          "entity.other.attribute-name.tsx"
+        ],
+        "settings": {
+          "fontStyle": "italic"
         }
-      ]
-    },
-    "workbench.colorTheme": "One Dark Pro Darker",
-    "cSpell.language": "en,de-DE",
-    "vscode_custom_css.imports": [
-      "file:///Users/andreasrau/pretty-ts-error-hack.css"
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json",
+          "comment",
+          // Exclude interpolation expressions
+          "meta.template.expression",
+          "meta.embedded.line",
+          "punctuation.definition.template-expression",
+          // More specific JSX/TSX expression exclusions
+          "variable.other.readwrite.js.jsx",
+          "variable.other.readwrite.tsx",
+          "variable.other.object.js.jsx",
+          "variable.other.object.tsx",
+          "meta.embedded.expression.jsx variable.other",
+          "meta.embedded.expression.tsx variable.other",
+          "meta.jsx.children variable.other",
+          "meta.tag.expression variable.other"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
     ]
-  }
-  
+  },
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "cSpell.language": "en,de-DE",
+  "vscode_custom_css.imports": [
+    "file:///Users/andreasrau/pretty-ts-error-hack.css"
+  ]
+}
